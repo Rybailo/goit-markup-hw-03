@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./portfolio.html">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./portfolio.html">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
     <header class="header">
+        <div class="container">
         <nav class="header-navigation">
         <a href="./index.html" class="header-logo link">Web<span class="header-logo-color">Studio</span></span></a>
         <ul class="header-list list">
@@ -23,13 +25,17 @@
     </nav>
         <a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </div>   
     </header>
     <main>
         <section class="inform">
+            <div class="container">
             <h1 class="inform-text">Эффективные решения для вашего бизнеса</h1>
             <button class="inform-botton" type="button">Заказать услугу</button>
+            </div>       
         </section>
         <section class="text-content">
+            <div class="container">
             <ul class="text-content-list list">
                 <li class="text-content-item">
                     <h3 class="text-content-top">Внимание к деталям</h3>
@@ -53,40 +59,45 @@
 
                 </li>
             </ul>
+            </div>
         </section>
         <section class="image">
+            <div class="container">
             <h2 class="image-top">   Чем мы занимаемся </h2>
             <ul class="image-list list">
                 <li class="image-item"><img src="./images/img.jpg" alt="картинка"  height="294" width="370" ></li>
                 <li class="image-item"><img src="./images/img_1.jpg" alt="картинка" height="294" width="370"></li>
                 <li class="image-item"><img src="./images/img_2.jpg" alt="картинка" height="294" width="370"></li>
             </ul>
+            </div>
         </section>
         <section class="team">
+            <div class="container">
             <h2 class="team-top">Наша команда</h2>
             <ul class="team-list list">
-                <li class="team-item"><img src="./images/team-1.jpg" alt="картинка" height="260" width="270">
+                <li class="team-item"><img class ="team-jpg" src="./images/team-1.jpg" alt="картинка" height="260" width="270">
                    <p class="team-item-top">Игорь Демьяненко</p>
                    <p class="team-item-text">Product Designer</p>
                 </li>
-                <li class="team-item"><img src="./images/team-2.jpg" alt="картинка" height="260" width="270">
+                <li class="team-item"><img class ="team-jpg" src="./images/team-2.jpg" alt="картинка" height="260" width="270">
                    <p class="team-item-top">Ольга Репина</p>
                    <p class="team-item-text">Frontend Developer</p>
                 </li>
-                <li class="team-item"><img src="./images/team-3.jpg" alt="картинка" height="260" width="270">
+                <li class="team-item"><img class ="team-jpg" src="./images/team-3.jpg" alt="картинка" height="260" width="270">
                    <p class="team-item-top">Николай Тарасов</p>
                    <p class="team-item-text">Marketing</p>
                 </li>
-                <li class="team-item"><img src="./images/team-4.jpg" alt="картинка" height="260" width="270">
+                <li class="team-item"><img class ="team-jpg" src="./images/team-4.jpg" alt="картинка" height="260" width="270">
                    <p class="team-item-top">Михаил Ермаков</p>
                    <p class="team-item-text">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
 
     </main>
     <footer class="footer-adress">
-        
+        <div class="container">
             <a href="./index.html" class="footer-logo link" >Web<span class="logo-color">Studio</span></a>
             <address>
                 <ul class="footer-adress-list list">
@@ -94,10 +105,8 @@
                     <li><a class="footer-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li><a class="footer-tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
-
             </address>
-        
-
+        </div>
     </footer>
 
 </body>

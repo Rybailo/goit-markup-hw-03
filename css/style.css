@@ -1,305 +1,402 @@
 :root {
-    --headerc:#212121;
-    --main-titlec:#FFFFFF;
-    --bottomc:#2196F3;
-    --second-bottomc:#FFFFFF;
-    --accentc:#2196F3;
+  --headerc: #212121;
+  --main-titlec: #ffffff;
+  --bottomc: #2196f3;
+  --second-bottomc: #ffffff;
+  --accentc: #2196f3;
 }
-
 
 body {
-    font-family: Roboto, sans-serif;
-   
-}
-.link{
-    text-decoration: none;
-}
-.inform{
-    background-color: #2F303A;
+  font-family: Roboto, sans-serif;
 }
 
-.list{
-    list-style: none;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
+.link {
+  text-decoration: none;
+}
+.inform {
+  background-color: #2f303a;
+}
+
+.list {
+  list-style: none;
+}
+
+img {
+  display: block;
 }
 
 .visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 /*-----------------HEADER-----------------*/
 
-.header-logo{
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--bottomc);
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.header-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--bottomc);
 }
 
 .header-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color:#212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
 }
 
 .header-link:hover {
-    color: var(--accentc);
+  color: var(--accentc);
 }
 
 .header-link:focus {
-    color: var(--accentc);
+  color: var(--accentc);
 }
 
-.header-mail{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575  ;
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 
 .header-mail:hover {
-    color: var(--accentc);
+  color: var(--accentc);
 }
 
 .header-mail:focus {
-    color: var(--accentc);
+  color: var(--accentc);
 }
 
-
 .header-tel {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 
 .header-tel:hover {
-    color: var(--accentc);
+  color: var(--accentc);
 }
 
 .header-tel:focus {
-    color: var(--accentc);
+  color: var(--accentc);
 }
 
-.header-logo-color{
-    color: black;
+.header-logo-color {
+  color: black;
 }
-
 
 /*-----------------INFORM------------------*/
 
+.inform {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .inform-text {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: var(--main-titlec);
+  max-width: 696px;
+  margin-bottom: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-titlec);
 }
 
-.inform-botton{
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    background-color: var(--bottomc);
-    color: var(--second-bottomc);
+.inform-botton {
+  padding: 10px 32px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--bottomc);
+  color: var(--second-bottomc);
 }
-
 
 /*---------------------TEXT-CONTENT----------*/
 
+.text-content {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .text-content-top {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
+  margin: 10px 30px 0 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
 }
 .text-content-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    
-    color: #757575;
+  max-width: 270px;
+  margin: 0 30px 0 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
 
 /*---------------IMAGE-----------------------*/
 
+.image {
+  padding-bottom: 94px;
+}
+
 .image-top {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    
-    color: #212121;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.image-item {
+  margin-right: 30px;
 }
 
 /*-----------------TEAM-----------------------*/
+
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .team-item-top {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .team-top {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
+
+.team-jpg {
+  margin-bottom: 30px;
+}
+
+.team-item {
+  margin-right: 30px;
+}
+
 .team-item-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 /*-------------------NAVIGATION------------------*/
-.navigation-button{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    background: #F5F4FA;
-    border-radius: 4px;
-    cursor: pointer;
+
+.navigation {
+  padding-top: 174px;
+  padding-bottom: 94px;
+}
+
+.image-content {
+  margin-top: 50px;
+}
+
+.image-content-img {
+  margin-bottom: 20px;
+}
+
+.image-content-top {
+  margin-bottom: 4px;
+}
+
+.navigation-button {
+  padding: 6px 22px;
+  margin-right: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .navigation-button:hover {
-    color: var(--second-bottomc);
-    background-color: var(--bottomc);
+  color: var(--second-bottomc);
+  background-color: var(--bottomc);
 }
 
 .navigation-button:focus {
-    color: var(--second-bottomc);
-    background-color: var(--bottomc);
+  color: var(--second-bottomc);
+  background-color: var(--bottomc);
 }
-
 
 /*----------------IMAGE-CONTENT---------------*/
 
 .image-content-top {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
 }
 
 .image-content-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
-    color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 /*---------------FOOTER------------------*/
 
 .footer-adress {
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 1628px;
-    background: #2F303A;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+  background: #2f303a;
 }
 
 .footer-logo {
-        font-family: Raleway;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        color: #2196F3;
+  margin-bottom: 20px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
 
 .footer-map {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71; 
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+  margin-bottom: 9px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
 .footer-mail {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-tel {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-map:hover {
-    color: var(--accentc);
+  color: var(--accentc);
 }
 
 .footer-map:focus {
-    color: var(--accentc);
+  color: var(--accentc);
 }
 
 .footer-mail:hover {
-    color: var(--accentc);
+  color: var(--accentc);
 }
 
 .footer-mail:focus {
-    color: var(--accentc);
+  color: var(--accentc);
 }
 
 .footer-tel:hover {
-    color: var(--accentc);
+  color: var(--accentc);
 }
 
 .footer-tel:focus {
-    color: var(--accentc);
+  color: var(--accentc);
 }
 
-.logo-color{
-    color: #FFFFFF;
+.logo-color {
+  color: #ffffff;
 }
-
-
