@@ -35,14 +35,10 @@ button {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 1px solid red;
 }
 
 .link {
   text-decoration: none;
-}
-.inform {
-  background-color: #2f303a;
 }
 
 .list {
@@ -73,7 +69,25 @@ img {
   padding-bottom: 25px;
 }
 
+.header-list {
+  display: flex;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header .container .header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-mail-tel {
+  margin-left: auto;
+}
+
 .header-logo {
+  margin-right: 93px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -115,6 +129,7 @@ img {
 }
 
 .header-tel {
+  margin-left: 50px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -139,9 +154,11 @@ img {
 .inform {
   padding-top: 200px;
   padding-bottom: 200px;
+  background-color: #2f303a;
 }
 
 .inform-text {
+  margin: 0 auto;
   max-width: 696px;
   margin-bottom: 30px;
   font-family: "Roboto";
@@ -156,6 +173,9 @@ img {
 }
 
 .inform-botton {
+  margin: 0 auto;
+  display: block;
+  border-radius: 4px;
   padding: 10px 32px;
   font-family: inherit;
   font-weight: 700;
@@ -177,8 +197,15 @@ img {
   padding-bottom: 94px;
 }
 
+.text-content-list {
+  display: flex;
+}
+
+.text-content-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .text-content-top {
-  margin: 10px 30px 0 0;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -188,12 +215,10 @@ img {
 }
 .text-content-text {
   max-width: 270px;
-  margin: 0 30px 0 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 
@@ -201,6 +226,10 @@ img {
 
 .image {
   padding-bottom: 94px;
+}
+
+.image-list {
+  display: flex;
 }
 
 .image-top {
@@ -213,7 +242,7 @@ img {
   color: #212121;
 }
 
-.image-item {
+.image-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -222,6 +251,11 @@ img {
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.team-list {
+  display: flex;
+  margin-left: -30px;
 }
 
 .team-item-top {
@@ -249,7 +283,8 @@ img {
 }
 
 .team-item {
-  margin-right: 30px;
+  width: calc(100% / 4 - 30px);
+  margin-left: 30px;
 }
 
 .team-item-text {
@@ -282,7 +317,6 @@ img {
 
 .navigation-button {
   padding: 6px 22px;
-  margin-right: 8px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -306,6 +340,15 @@ img {
   background-color: var(--bottomc);
 }
 
+.navigation-list {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 /*----------------IMAGE-CONTENT---------------*/
 
 .image-content-top {
@@ -324,13 +367,22 @@ img {
   color: #757575;
 }
 
+.image-content-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.image-content-item {
+  height: 407px;
+}
 /*---------------FOOTER------------------*/
 
 .footer-adress {
   margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 1600px;
+  width: 100%;
   height: 252px;
   left: 0px;
   top: 1628px;
