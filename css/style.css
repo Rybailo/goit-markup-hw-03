@@ -67,6 +67,8 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+
+  border: 1px solid #ececec;
 }
 
 .header-list {
@@ -299,16 +301,12 @@ img {
 /*-------------------NAVIGATION------------------*/
 
 .navigation {
-  padding-top: 174px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .image-content {
   margin-top: 50px;
-}
-
-.image-content-img {
-  margin-bottom: 20px;
 }
 
 .image-content-top {
@@ -375,6 +373,13 @@ img {
 
 .image-content-item {
   height: 407px;
+}
+
+.image-boreder {
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 /*---------------FOOTER------------------*/
 
