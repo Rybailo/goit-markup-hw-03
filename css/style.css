@@ -68,7 +68,7 @@ img {
   padding-top: 24px;
   padding-bottom: 25px;
 
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-list {
@@ -208,6 +208,7 @@ img {
 }
 
 .text-content-top {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -271,6 +272,7 @@ img {
 }
 
 .team-top {
+  padding-top: 94px;
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -287,6 +289,10 @@ img {
 .team-item {
   width: calc(100% / 4 - 30px);
   margin-left: 30px;
+}
+
+.team-item-border {
+  padding-bottom: 94px;
 }
 
 .team-item-text {
@@ -368,11 +374,15 @@ img {
 .image-content-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  margin-left: -30px;
+  margin-bottom: -30px;
 }
 
 .image-content-item {
   height: 407px;
+  width: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
 
 .image-boreder {
@@ -388,14 +398,16 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
   width: 100%;
-  height: 252px;
   left: 0px;
   top: 1628px;
   background: #2f303a;
 }
 
+.footer-adress-list {
+  margin-top: 20px;
+}
+
 .footer-logo {
-  margin-bottom: 20px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -405,7 +417,6 @@ img {
 }
 
 .footer-map {
-  margin-bottom: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -414,7 +425,7 @@ img {
 }
 
 .footer-mail {
-  margin-bottom: 9px;
+  padding-top: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -423,6 +434,7 @@ img {
 }
 
 .footer-tel {
+  padding-top: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
