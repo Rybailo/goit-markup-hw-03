@@ -272,7 +272,6 @@ img {
 }
 
 .team-top {
-  padding-top: 94px;
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -292,7 +291,8 @@ img {
 }
 
 .team-item-border {
-  padding-bottom: 94px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .team-item-text {
@@ -425,7 +425,6 @@ img {
 }
 
 .footer-mail {
-  padding-top: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -434,12 +433,15 @@ img {
 }
 
 .footer-tel {
-  padding-top: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-map:hover {
